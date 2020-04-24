@@ -1,0 +1,138 @@
+html {
+    background: url('bg.jpg') no-repeat center center fixed;
+    background-size: cover;
+    height: 100%;
+    overflow: hidden;
+}
+#box-signup{
+    border-radius: 20px;
+    background: #FFFFFF;
+    padding: 20px;
+    width: 830px;
+    height: 530px;
+    margin-top: 130px;
+    margin-left: 320px;
+    position: relative;
+    left: 10%;
+}
+.djathtas{
+    width: 55%;
+    float: center;
+}
+.logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.sign-up{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 25px;
+    text-align: center;
+    font-variant: small-caps;
+    letter-spacing: 2px;
+
+}
+.emer{
+    width: 70%;
+    overflow: hidden;
+    font-size: 14px;
+    padding: 5px 0;
+    margin: 5px 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-bottom: 1px solid #C0C0C0;
+}
+.emer i{
+    width: 26px;
+    float: left;
+    text-align: center;
+}
+.emer input{
+    border: none;
+    outline: none;
+    background: none;
+    color: black;
+    font-size: 14px;
+    width: 80%;
+    float: left;
+    margin: 0 10px;
+}
+.mbiemer{
+    width: 70%;
+    overflow: hidden;
+    padding: 5px 0;
+    margin: 5px 0;
+    font-size: 14px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-bottom: 1px solid #C0C0C0;
+}
+.mbiemer i{
+    width: 26px;
+    float: left;
+    text-align: center;
+}
+.mbiemer input{
+    border: none;
+    outline: none;
+    background: none;
+    color: black;
+    font-size: 14px;
+    width: 80%;
+    float: left;
+    margin: 0 10px;
+}
+.email{
+    width: 70%;
+    overflow: hidden;
+    font-size: 14px;
+    padding: 5px 0;
+    margin: 5px 0;
+    border-bottom: 1px solid #C0C0C0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.email i{
+    width: 26px;
+    float: left;
+    text-align: center;
+}
+.email input{
+    border: none;
+    outline: none;
+    background: none;
+    color: black;
+    font-size: 14px;
+    width: 80%;
+    float: left;
+    margin: 0 10px;
+}
+.btn{
+    border: none;
+    text-align: center;
+    margin: 20px;
+    padding: 16px;
+    width: 240px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-transform: uppercase;
+    border-radius: 50px;
+    cursor: pointer;
+    color: #fff;
+    background-image: linear-gradient(to left, #55efc4 ,#273c75,#55efc4);
+    background-size: 200%;
+    transition: 0.4s;
+    float: right;
+    left: 50%;
+}
+.btn:hover{
+    background-position: right;
+}
+.majtas{
+    width: 45%;
+    float: left;
+}
+.error{
+  text-align: center;
+  color: red;
+}
+.sukses{
+  color: green;
+}
