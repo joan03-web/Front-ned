@@ -26,10 +26,10 @@ function CreateDatabase(){
     $sql = "
       CREATE TABLE IF NOT EXISTS users(
         id INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY,
-        first_name VARCHAR(25) NOT NULL,
-        last_name VARCHAR(25) NOT NULL,
-        email VARCHAR(25) NOT NULL,
-        password VARCHAR(25),
+        first_name VARCHAR(255) NOT NULL,
+        last_name VARCHAR(255) NOT NULL,
+        email VARCHAR(255) NOT NULL,
+        password VARCHAR(255),
         join_date DATE NOT NULL
         )";
 
