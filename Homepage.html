@@ -5,17 +5,20 @@
     </head>
 <style>
 @import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css");
-html {
+
+body{
+    margin:0;
+    padding:0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-variant: small-caps;
+}
+.homepage {
   background: url('view.jpg') no-repeat center center fixed;
   background-size: cover;
   height: 100%;
   overflow: hidden;
 }
-body{
-    margin:0;
-    padding:0;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
+
 .logo{
     display: block;
     padding-top: 10px;
@@ -28,7 +31,6 @@ body{
 .Wat{
     text-align: center;
     font-size: 14px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: #f0932b;
     font-variant: small-caps;
     
@@ -36,7 +38,6 @@ body{
 .Wat2{
     text-align: center;
     font-size: 16px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: #f53b57;
     font-variant: small-caps;
     padding-bottom: 5px;
@@ -60,8 +61,6 @@ ul li{
     line-height: 10px;
     text-align: center;
     font-size: 20px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-variant: small-caps;
     border-right: 1px solid rgba(0, 0, 0, 0.2);
 }
 ul li a{
@@ -138,11 +137,53 @@ ul li .icon .fa:last-child{
         transform: rotate(45deg) translate(20px, 20px);
     }
 }
+.tiranaInfo{
+  background: url('trr.jpg') no-repeat center center fixed;
+  background-size: cover;
+  height: 100%;
+  overflow: hidden;
+  opacity: 90%;
+  animation: slide 20s infinite;
+}
+@keyframes slide {
+    0%{
+        background-image: url('grafiti.jpg');
+    }
+    25%{
+        background-image: url('tr at night.jpg');
+    }
+    50%{
+        background-image: url('downtown1.jpg');
+    }
+    75%{
+        background-image: url('4evergreen.jpg');
+    }
+    100%{
+        background-image: url('tr2.jpg');
+    }
+}
+.paragrafTr{
+    height: 150px;
+    font-size: 25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 300px;
+    padding:30px 80px;
+    text-align: justify;
+    color: #34495e;
+}   
+#textTr{
+  border-radius: 10px;
+  background: #FFFFFF;
+  width: 100%;
+  height: 200px;
+  margin: 0 auto;
+  position: relative;            
 
+}
 </style>    
 <body>
     <div class = "homepage">
-        <img class="logo" src="logo transparente.png" alt="Wander Around Tirana">
+            <img class="logo" src="logo transparente.png" alt="Wander Around Tirana">
         <p class="Wat"> Wander Around Tirana</p>
         <p class="Wat2">In Tirana there is always more than what meets the eye</p>
         <div class="list">
@@ -202,5 +243,15 @@ ul li .icon .fa:last-child{
             <span></span>
         </div>
       </div>
+<div class="tiranaInfo">
+    <form id="textTr" action="">
+             <p class="paragrafTr">Nuk është e lehtë të përshkruash Tiranën me pak fjalë. Përshkrimet si një 
+            ‘qytet i gjallë’, ‘me ngjyra’ janë thjesht shprehje për të dhënë idenë e kulturës, pasionit 
+            dhe optimizmit që ndihet në qytetin tonë. Teksa vizitoni një nga atraksionet, muzeumet, 
+            kështjellat përreth, apo klubet e natës dhe baret në pjesët më moderne të qytetit, 
+            lejoni që t’ju përfshijë emocioni dhe kënaqësia që ju pret në Tiranë. Shpresojmë që të kaloni 
+            një kohë të mrekullueshme në kryeqytetin e Shqipërisë, në Tiranë. </p> 
+    </form>
+</div>
 </body>
 </html>
