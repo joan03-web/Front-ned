@@ -1,24 +1,24 @@
+<style>
 html {
-    background: url('foto_login_signup/s7-4.jpg') no-repeat center center fixed;
     background-size: cover;
     height: 100%;
     overflow: hidden;
 }
+
 #box-signup{
     border-radius: 20px;
     background: #FFFFFF;
+    padding: auto;
     width: 830px;
     height: 530px;
     top: 50%;
     left: 50%;
-    padding: 20px;
-
     margin: 0;
     position: absolute;
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
-
 }
+
 .djathtas{
     width: 55%;
     float: right;
@@ -133,8 +133,14 @@ html {
 .btn:hover{
     background-position: right;
 }
+.btn:active {
+	transform: scale(0.95);
+}
+.btn:focus {
+	outline: none;
+}
 .majtas{
-    background: url("foto_login_signup/16 The Plaza Hotel.jpg");
+    background: url("16 The Plaza Hotel.jpg");
     width: 45%;
     position: absolute;
     left: 0px;
@@ -180,3 +186,5 @@ html {
     letter-spacing: 2px;
     color: #d6001c;
 }
+
+</style>
