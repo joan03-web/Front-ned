@@ -3,7 +3,7 @@
 <html>
     <head>
       <meta charset="utf-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
       <meta http-equiv="X-UA-Comptatible" content="ie=edge"> <!-- perdoret per te lejuar perdorues te zgjedhin ca versioni i Internet Explorer do paraqitet -->
       <link rel="stylesheet" href="login.css">
       <style media="screen">
@@ -12,7 +12,6 @@
         <title> Login </title>
     </head>
 
-<body style="background-image: url('foto_login_signup/bg.jpg')">
     <br><br><br>
 <form id="box" method="post">
     <div class="login-box">
