@@ -1,0 +1,71 @@
+html {
+    background-image: linear-gradient(to top, #f43b47 0%, #453a94 100%);
+    background-size: cover;
+    height: 100%;
+    overflow: hidden;
+}
+#reset-box{
+  border-radius: 25px;
+  background: #FFFFFF;
+  padding: 70px;
+  width: 320px;
+  height: 350px;  
+  margin: 110px auto;
+  margin-right: 520px;
+  position: relative;
+  text-align: center;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.img{
+    width:75px; 
+    height:70px; 
+    cursor:pointer;
+}
+.form-title{
+    font-variant: small-caps;
+    font-size: 30px;
+}
+.form-group{
+    width: 80%;
+    overflow: hidden;
+    font-size: 18px;
+    padding: 5px 0;
+    margin: 5px 0;
+    border-bottom: 1px solid #C0C0C0;
+    display: inline-block;
+}
+.form-group i{
+    width: 26px;
+    float: left;
+    text-align: center;
+}
+.form-group input{
+    border: none;
+    outline: none;
+    background: none;
+    color: black;
+    font-size: 16px;
+    width: 80%;
+    float: left;
+    margin: 0 10px;
+}
+.btn{
+    border: none;
+    text-align: center;
+    margin: 20px;
+    padding: 16px;
+    width: 200px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-transform: uppercase;
+    border-radius: 30px;
+    cursor: pointer;
+    color: #fff;
+    background-image: linear-gradient(to left, #ff4757,#6c5ce7, #ff4757);
+    background-size: 200%;
+    transition: 0.4s;
+    vertical-align: middle;
+}
+.btn:hover{
+    background-position: right;
+}
+ 
