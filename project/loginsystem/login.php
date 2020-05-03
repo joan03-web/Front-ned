@@ -12,11 +12,11 @@
         <title> Login </title>
     </head>
 
-<body style="background-image: url('bg.jpg')">
+<body style="background-image: url('foto_login_signup/bg.jpg')">
     <br><br><br>
 <form id="box" method="post">
     <div class="login-box">
-        <img src="logo1.png"alt="Wander around Tirana"style="width:80px;height:75px" class="img">
+        <img src="foto_login_signup/logo1.png"alt="Wander around Tirana"style="width:80px;height:75px" class="img">
         <p class="login"> <strong> login </strong> </p>
         <div class="email-part">
             <p style="text-align: left">E-mail</p>
@@ -39,7 +39,7 @@
         }
          ?>
          <input class="btn" type="submit" name="SignIn" value="Login">
-        <p class="forgot-pass "><a href="enter_email.php"> Forgot password?</p> </a> <br> <br> <br>
+        <p class="forgot-pass "><a href="forgotPass/enter_email.php"> Forgot password?</p> </a> <br> <br> <br>
         <p class="signup"><a href="signup.php">  Sign up</a> </p>
     </div>
     </form>
