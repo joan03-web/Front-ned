@@ -2,16 +2,21 @@
 
 <html>
     <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="X-UA-Comptatible" content="ie=edge"> <!-- perdoret per te lejuar perdorues te zgjedhin ca versioni i Internet Explorer do paraqitet -->
+      <link rel="stylesheet" href="login.css">
+      <style media="screen">
+        @import "https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css";
+      </style>
         <title> Login </title>
-        <link rel="stylesheet" href="login.css" type="text/css" media="all" />
     </head>
 
-<body>
+<body style="background-image: url('bg.jpg')">
     <br><br><br>
-
 <form id="box" method="post">
     <div class="login-box">
-        <img src="foto_login_signup/logo1.png"alt="Wander around Tirana"style="width:80px;height:75px" class="img">
+        <img src="logo1.png"alt="Wander around Tirana"style="width:80px;height:75px" class="img">
         <p class="login"> <strong> login </strong> </p>
         <div class="email-part">
             <p style="text-align: left">E-mail</p>
@@ -21,7 +26,7 @@
         </div>
 
         <div class="email-part">
-            <p style="text-align: left">Password</p>
+            <p style="text-align: left">Password</p
             <br>
             <i class="fa fa-lock"></i>
             <input type="password" placeholder="Type your password" name="password" value="">
@@ -34,9 +39,8 @@
         }
          ?>
          <input class="btn" type="submit" name="SignIn" value="Login">
-
-        <p class="forgot-pass"> <a href="forgotPass/enter_email.php"> Forgot password?</a></p> <br> <br> <br>
-        <p class="signup"><a href="signup.php">  sign up <a> </p>
+        <p class="forgot-pass "><a href="enter_email.php"> Forgot password?</p> </a> <br> <br> <br>
+        <p class="signup"><a href="signup.php">  Sign up</a> </p>
     </div>
     </form>
 </div>
