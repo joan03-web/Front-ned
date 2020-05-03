@@ -13,12 +13,12 @@ require_once("veprime.php");
         <title> Sign up </title>
 </head>
 
-<body style="background-image: url('s7-4.jpg')">
+<body style="background-image: url('foto_login_signup/s7-4.jpg')">
 
 <form method="post" id="box-signup">
   <div class="signup">
    <div class="djathtas">
-    <img src="logo1.png" alt="Wander around Tirana" style="width:80px;height:75px" class="logo">
+    <img src="foto_login_signup/logo1.png" alt="Wander around Tirana" style="width:80px;height:75px" class="logo">
       <p class="sign-up">Create an account</p>
         <div class="emer">
         <input type="text" placeholder="First name" name="first_name" >
