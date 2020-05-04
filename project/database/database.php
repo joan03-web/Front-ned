@@ -5,7 +5,7 @@ function CreateDatabase(){
   //percaktojm variablat per databazen
   $servername = "localhost";
   $username = "root";
-  $password = "joanbena2020";
+  $password = "";
   $dbname = "perdorues";
 
 //create connection
