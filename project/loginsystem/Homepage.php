@@ -188,7 +188,7 @@ ul li .icon .fa:last-child{
         <p class="Wat2">In Tirana there is always more than what meets the eye</p>
         <div class="list">
             <ul>
-                <li> <a href="#">
+                <li> <a href="Homepage.php">
                     <div class="icon">
                         <i class="fa fa-home"></i>
                         <i class="fa fa-home"></i>
