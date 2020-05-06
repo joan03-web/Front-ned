@@ -95,13 +95,13 @@ ul li .icon .fa:last-child{
 .header{
   text-align: center;
   position: absolute;
-  top: 55%;
+  top: 45%;
   left: 48%;
   transform: translate(-50%,-50%);
 }
 .header h1{
   color: #fff;
-  font-size: 350%;
+  font-size: 300%;
   margin-bottom: 30px;
   text-decoration-style: double;
   text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
@@ -111,7 +111,7 @@ ul li .icon .fa:last-child{
 }
 .forma{
   position: absolute;
-  top: 85%;
+  top: 75%;
   left:50%;
   transform: translate(-50%,-50%);
   text-align: center;
@@ -119,12 +119,14 @@ ul li .icon .fa:last-child{
   font-size: 18px;
 }
 input{
+  color: #fff;
   width: 100%;
   margin: 25px 0;
   background: transparent;
   border: none;
   border-bottom: 1px solid white;
   font-size: 16px;
+  color: white;
 }
 textarea{
   color: white;
@@ -132,6 +134,12 @@ textarea{
   text-align: left;
   font-size: 16px;
 }
+::-webkit-input-placeholder{
+  color: #EAEAEA;
+  font-size: 12px;
+  letter-spacing: 2px;
+}
+
 .button{
   border: none;
   text-align: center;
